@@ -1,0 +1,34 @@
+{
+  "name": "chatty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint . --ext **/*.js"
+  },
+  "lint-staged": {
+    "**/*{.js,.jsx,.ts,.tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomPeas/Chatty.git"
+  },
+  "author": "Tom Peasgood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomPeas/Chatty/issues"
+  },
+  "homepage": "https://github.com/TomPeas/Chatty#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
+  }
+}
